@@ -1,7 +1,7 @@
 import { FaTerminal } from "react-icons/fa6";
 import { IoGitBranch } from "react-icons/io5";
 import { VscVscodeInsiders, VscJson } from "react-icons/vsc";
-import { PiFileJs } from "react-icons/pi";
+
 import { IoCodeSlashOutline } from "react-icons/io5";
 
 export default function Hero() {
@@ -20,13 +20,7 @@ export default function Hero() {
         {/* text */}
         <HeroText />
         {/* pic */}
-        <div className="w-full overflow-hidden flex items-center justify-center relative  min-h-[50vh] md:flex-[1] lg:min-h-screen lg:justify-start ">
-          <div className="h-[50vh] w-[50vh] rounded-full absolute  bg-[#161616] lg:h-[150vh] lg:w-[150vh]" />
-          <div className="h-[40vh] w-[40vh] rounded-full absolute bg_for_img lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
-          <div className="h-[40vh] w-[40vh] rounded-full absolute bg-[#111111]/50  lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
-          <div className="h-[20vh] w-[20vh] rounded-full absolute bg-[#1E1E1E] lg:h-[90vh] lg:w-[90vh] md:left-[22vw]" />
-          <div className="h-[10vh] w-[10vh] rounded-full absolute bg-[#111111] lg:h-[50vh] lg:w-[50vh] md:left-[34vw]" />
-        </div>
+        <HeroPic />
       </div>
     </div>
   );
@@ -35,7 +29,7 @@ export default function Hero() {
 function HeroText() {
   return (
     <div className=" pt-[14vh] w-full  px-6 flex flex-col gap-6 items-center md:pt-0 md:pl-14 md:gap-8 md:flex-[1] ">
-      <p className="text-[#9d9d9d] text-center font-extralight text-xl md:text-2xl lg:text-start ">
+      <p className="text-[#9d9d9d] text-center font-extralight text-base md:text-2xl lg:text-start ">
         Passionate about transforming ideas into scalable, efficient, and
         elegant software solutions.
       </p>
@@ -48,6 +42,18 @@ function HeroText() {
           "{ I don’t just write code I create solutions that make a difference }"
         }
       </h2>
+    </div>
+  );
+}
+
+function HeroPic() {
+  return (
+    <div className="w-full overflow-hidden flex items-center justify-center relative  min-h-[50vh] md:flex-[1] lg:min-h-screen lg:justify-start ">
+      <div className="h-[50vh] w-[50vh] rounded-full absolute  bg-[#161616] lg:h-[150vh] lg:w-[150vh]" />
+      <div className="h-[40vh] w-[40vh] rounded-full absolute bg_for_img lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
+      <div className="h-[40vh] w-[40vh] rounded-full absolute bg-[#111111]/50  lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
+      <div className="h-[20vh] w-[20vh] rounded-full absolute bg-[#1E1E1E] lg:h-[90vh] lg:w-[90vh] md:left-[22vw]" />
+      <div className="h-[10vh] w-[10vh] rounded-full absolute bg-[#111111] lg:h-[50vh] lg:w-[50vh] md:left-[34vw]" />
     </div>
   );
 }
