@@ -5,6 +5,12 @@
   --foreground: #171717;
 }
 
+* {
+  scroll-behavior: smooth;
+
+  box-sizing: border-box;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -29,4 +35,35 @@ body {
   background-image: url("/images/img.jpg");
   background-position: top;
   background-size: cover;
+}
+
+.service {
+  background: conic-gradient(at 62.5% 12.5%, #191919 25%, #0000 0)
+      calc(71px / -8) calc(71px / 2),
+    conic-gradient(at 62.5% 12.5%, #191919 25%, #0000 0) calc(-3 * 71px / 8)
+      calc(71px / 4),
+    conic-gradient(at 87.5% 62.5%, #191919 25%, #0000 0) calc(3 * 71px / 8)
+      calc(71px / 4),
+    conic-gradient(at 87.5% 62.5%, #191919 25%, #0000 0) calc(71px / -8) 0,
+    conic-gradient(at 25% 12.5%, #191919 25%, #0000 0) 0 calc(71px / -4),
+    conic-gradient(at 25% 12.5%, #191919 25%, #0000 0) calc(71px / -4) 0,
+    conic-gradient(at 87.5% 87.5%, #191919 25%, #0000 0) calc(71px / 8) 0
+      rgba(71, 212, 255, 0);
+  background-size: 71px 71px;
+}
+
+.bg_line {
+  background-image: url("/images/line.png");
+  background-size: cover;
+  background-position: center;
+}
+.bg_line2 {
+  background-image: url("/images/line3.png");
+  background-size: cover;
+  background-position: center;
+}
+.bg_line3 {
+  background-image: url("/images/line2.png");
+  background-size: cover;
+  background-position: center;
 }

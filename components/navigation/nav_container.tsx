@@ -1,8 +1,9 @@
-import { FaFacebook, FaLaptopCode } from "react-icons/fa";
+import { FaFacebook, FaGithubSquare, FaLaptopCode } from "react-icons/fa";
 import Navlinks from "./nav_link";
 import Link from "next/link";
 import { LiaLinkedin } from "react-icons/lia";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 export default function NavContainer() {
   return (
@@ -15,7 +16,7 @@ export default function NavContainer() {
       <div className="hidden items-center gap-12 md:flex">
         <Navlinks label="Home" url="/" />
         <Navlinks label="About me" url="/#about" />
-        <Navlinks label="My Skills" url="/#skills" />
+        <Navlinks label="Services" url="/#services" />
         <Navlinks label="My works" url="/#realisation" />
         <Navlinks label="Contact me" url="/contact" />
       </div>
@@ -32,7 +33,10 @@ export default function NavContainer() {
           <FaFacebook className="text-blue-500 text-xl md:text-2xl " />
         </Link>
         <Link href={"/"}>
-          <BsTwitterX className="text-white text-xl md:text-2xl " />
+          <FaGithubSquare className="text-white text-xl md:text-2xl " />
+        </Link>
+        <Link href={"/"}>
+          <MdEmail className="text-white text-xl md:text-2xl " />
         </Link>
       </div>
     </div>

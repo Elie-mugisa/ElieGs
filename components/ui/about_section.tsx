@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function AboutSection() {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <div className=" bg-[#111111] relative py-8 w-full  ">
+    <div id="about" className=" bg-[#111111] relative py-8 w-full  ">
       <FaLinux className="text-9xl text-[#9d9d9d]/30 absolute bottom-20 right-20 z-20 " />
       <div className="flex bg-[#111111] flex-col-reverse gap-x-14 gap-y-10 items-center  md:py-14 lg:flex-row lg:items-start ">
         {/* picture */}
@@ -127,6 +127,21 @@ export default function AboutSection() {
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Currently working as a program manager and software engineer
                   at Autafrika{" "}
+                  <span>
+                    <Link
+                      href="https://www.autafrika.com/"
+                      target="_blank"
+                      className="text-[#9d9d9d] hover:text-white transition-colors duration-300 ml-2"
+                    >
+                      <HiExternalLink className="inline text-xl md:text-3xl" />
+                    </Link>
+                  </span>
+                </p>
+              </div>
+              <div className="flex items-center gap-x-4 ">
+                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                <p className="text-[#9d9d9d] text-lg md:text-2xl">
+                  Co-founder of Autafrika
                   <span>
                     <Link
                       href="https://www.autafrika.com/"
