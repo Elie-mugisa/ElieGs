@@ -30,7 +30,7 @@ export default function AboutSection() {
               <Image
                 className="object-cover rounded-t-md bg-fixed  transition-opacity duration-1000"
                 onLoad={() => setIsLoading(false)}
-                src={"/images/prof.jpg"}
+                src={"/images/pic2.jpeg"}
                 priority
                 alt="image"
                 width={100}
@@ -75,7 +75,9 @@ export default function AboutSection() {
 
             <div className="flex flex-col gap-y-4 pl-6 mt-4">
               <div className="flex items-start gap-x-4">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Trainer for two years at Fongolab, Fongolab is a Tech
                   Laboratory at Hope Africa University Burudundi; Students get
@@ -92,8 +94,10 @@ export default function AboutSection() {
                 </p>
               </div>
 
-              <div className="flex items-center gap-x-4">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+              <div className="flex items-start gap-x-4">
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Deputy coordinator at Fongolab{" "}
                   <span>
@@ -107,8 +111,10 @@ export default function AboutSection() {
                   </span>
                 </p>
               </div>
-              <div className="flex items-center gap-x-4">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+              <div className="flex items-start gap-x-4">
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Mobile developer at Magis/Burundi{" "}
                   <span>
@@ -122,8 +128,10 @@ export default function AboutSection() {
                   </span>
                 </p>
               </div>
-              <div className="flex items-center gap-x-4 ">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+              <div className="flex items-start gap-x-4 ">
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Currently working as a program manager and software engineer
                   at Autafrika{" "}
@@ -138,8 +146,10 @@ export default function AboutSection() {
                   </span>
                 </p>
               </div>
-              <div className="flex items-center gap-x-4 ">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+              <div className="flex items-start gap-x-4 ">
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Co-founder of Autafrika
                   <span>
@@ -153,8 +163,10 @@ export default function AboutSection() {
                   </span>
                 </p>
               </div>
-              <div className="flex items-center gap-x-4 ">
-                <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+              <div className="flex items-start gap-x-4 ">
+                <div className="h-10 w-10 flex justify-center items-start">
+                  <FaCaretRight className="inline text-[#9d9d9d] text-2xl " />
+                </div>
                 <p className="text-[#9d9d9d] text-lg md:text-2xl">
                   Currently working as a software engineer at Humanitarian
                   Action for Africa{" "}

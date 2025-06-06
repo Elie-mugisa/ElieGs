@@ -67,3 +67,24 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.active_link {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all;
+  animation-duration: 0.5s;
+}
+
+.active_link::after {
+  content: "";
+  position: absolute;
+  bottom: -4;
+  height: 2;
+  width: 34;
+  border-radius: 10;
+  background: white;
+  display: block;
+}

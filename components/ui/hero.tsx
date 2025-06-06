@@ -28,18 +28,18 @@ export default function Hero() {
 
 function HeroText() {
   return (
-    <div className=" pt-[14vh] w-full  px-6 flex flex-col gap-6 items-center md:pt-0 md:pl-14 md:gap-8 md:flex-[1] ">
+    <div className=" pt-[14vh] w-full  px-6 flex flex-col gap-6 items-center md:pt-0 md:pl-24 md:gap-8 md:flex-[1] ">
       <p className="text-[#9d9d9d] text-center font-extralight text-base md:text-2xl lg:text-start ">
         Passionate about transforming ideas into scalable, efficient, and
         elegant software solutions.
       </p>
-      <h1 className="font-bold text-white text-4xl md:text-6xl  ">
+      <h1 className="font-bold text-center text-white text-4xl md:text-6xl lg:text-start ">
         Bringing ideas to life with the power of algorithms, design patterns,
         and best practices.
       </h1>
-      <h2 className="font-medium mt-6 text-center text-white/70 text-2xl md:pt-10 md:text-4xl lg:text-start">
+      <h2 className="font-light  mt-6 text-center text-white/70 text-xl md:pt-10 md:text-4xl lg:text-start">
         {
-          "{ I don’t just write code I create solutions that make a difference }"
+          "{   I don’t just write code I create solutions that make a difference   }"
         }
       </h2>
     </div>

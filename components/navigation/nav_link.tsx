@@ -16,14 +16,12 @@ export default function Navlinks({ label, url }: Props) {
 
   return (
     <Link
-      // onClick={() => console.log(pathName)}
+      onClick={() => console.log(pathName)}
       href={url}
       className={` text-start link text-xl 
-      } ${
-        pathName === url
-          ? " text-white font-bold  relative active_link"
-          : "text-white/70"
-      }  `}
+   ${
+     pathName === url ? "  relative active_link" : "text-white/70"
+   } hover:text-white `}
     >
       {label}
     </Link>
