@@ -91,19 +91,36 @@ export default function Footer() {
       <div className="flex items-center gap-6 mt-10 lg:mt-0 lg:lg:gap-10 ">
         <div className="flex flex-col gap-6 items-center lg:gap-8 ">
           <div className="flex items-center gap-4">
-            <Link href={"/"}>
+            <Link
+              href={"https://www.linkedin.com/in/elie-mugisa-87609325a/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LiaLinkedin className="text-blue-600 text-xl md:text-3xl " />
             </Link>
-            <Link href={"/"}>
+            <Link
+              href={"https://wa.me/+25779882175"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsWhatsapp className="text-green-600 text-xl md:text-2xl " />
             </Link>
-            <Link href={"/"}>
-              <FaFacebook className="text-blue-500 text-xl md:text-2xl " />
-            </Link>
-            <Link href={"/"}>
+            {/* <Link href={"/"}   target="_blank"
+      rel="noopener noreferrer">
+          <FaFacebook className="text-blue-500 text-xl md:text-2xl " />
+        </Link> */}
+            <Link
+              href={"https://github.com/Elie-mugisa"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithubSquare className="text-white text-xl md:text-2xl " />
             </Link>
-            <Link href={"/"}>
+            <Link
+              href={"mailto:eliemugisa777@gmail.com"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MdEmail className="text-white text-xl md:text-2xl " />
             </Link>
           </div>

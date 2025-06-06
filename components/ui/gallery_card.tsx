@@ -11,8 +11,8 @@ export default function GalleyCard({ imagePath }: { imagePath: string }) {
       {/* Spinner */}
       {isLoading && (
         <div className="absolute w-full h-full flex flex-col items-center justify-center bg-[#111111]/60 z-10">
-          <Loader2 className="h-16 w-16 animate-spin opacity-70" />
-          <h1 className=" text-white text-xl font-bold opacity-70">
+          <Loader2 className="h-8 w-8 animate-spin opacity-70 md:h-14 md:w-14 " />
+          <h1 className=" text-white text-xs font-bold opacity-70 md:text-base ">
             Image loading
           </h1>
         </div>
