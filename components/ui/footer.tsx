@@ -125,7 +125,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className="text-[#9d9d9d] text-center ">
-            CopyRight &copy; 2025. All Right Reserve
+            CopyRight &copy; 2025. All Right Reserved
           </p>
         </div>
         <div className="h-[15vh] w-0.5 bg-[#1f1f1f] " />

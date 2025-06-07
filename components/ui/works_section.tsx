@@ -71,7 +71,7 @@ function WorksGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">
+          <h1 className="text-[#9d9d9d] font-semibold text-xl md:text-2xl ">
             Humanitarian Action for Africa
           </h1>
           <p className="text-base text-[#9d9d9d] ">
@@ -116,7 +116,9 @@ function WorksGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">Fongolab</h1>
+          <h1 className="text-[#9d9d9d] text-xl font-semibold md:text-2xl ">
+            Fongolab
+          </h1>
           <p className="text-base text-[#9d9d9d] ">
             A Tech-laboratory where students learn coding, a prototype version
             of web application serving also as a didactic material to guide
@@ -160,7 +162,7 @@ function WorksGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">
+          <h1 className="text-[#9d9d9d] text-xl font-semibold md:text-2xl ">
             Tabernacle Chretien Kalemi
           </h1>
           <p className="text-base text-[#9d9d9d] ">
@@ -212,7 +214,9 @@ function ContributionsGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">Autafrika</h1>
+          <h1 className="text-[#9d9d9d] text-xl font-semibold md:text-2xl ">
+            Autafrika
+          </h1>
           <p className="text-base text-[#9d9d9d] ">
             A technology company dedicated to developing innovative digital
             solutions tailored to address real challenges faced by African
@@ -258,7 +262,9 @@ function ContributionsGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">AgroFlex</h1>
+          <h1 className="text-[#9d9d9d] text-xl font-semibold md:text-2xl ">
+            AgroFlex
+          </h1>
           <p className="text-base text-[#9d9d9d] ">
             A platform serving as a demo for the mobile application, agroflex is
             digital solution for optimizing the agriculcuture's sector.
@@ -304,7 +310,9 @@ function ContributionsGrid() {
           className="pt-2 flex flex-col gap-y-4
         "
         >
-          <h1 className="text-[#9d9d9d] text-xl md:text-2xl ">iHelá Ryanje</h1>
+          <h1 className="text-[#9d9d9d] text-xl font-semibold md:text-2xl ">
+            iHelá Ryanje
+          </h1>
           <p className="text-base text-[#9d9d9d] ">
             iHelá Ryanje is a Platform for digital financial services and new
             means of payments located in Bujumbura/BURUNDI
