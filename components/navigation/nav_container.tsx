@@ -1,6 +1,7 @@
 "use client";
+import React from "react";
 
-import { FaFacebook, FaGithubSquare, FaLaptopCode } from "react-icons/fa";
+import { FaGithubSquare, FaLaptopCode } from "react-icons/fa";
 import Navlinks from "./nav_link";
 import Link from "next/link";
 import { LiaLinkedin } from "react-icons/lia";

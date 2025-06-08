@@ -2,6 +2,7 @@ import { PiBagSimpleFill, PiDevices } from "react-icons/pi";
 // import ServiceCard from "./box/service_card";
 import { MdDevicesOther, MdSpaceDashboard } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
+import React from "react";
 
 export default function ServiceSection() {
   return (

@@ -1,6 +1,7 @@
 import { FaTerminal } from "react-icons/fa6";
 import { IoGitBranch } from "react-icons/io5";
 import { VscVscodeInsiders, VscJson } from "react-icons/vsc";
+import React from "react";
 
 import { IoCodeSlashOutline } from "react-icons/io5";
 import { Fade } from "react-awesome-reveal";

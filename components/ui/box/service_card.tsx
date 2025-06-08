@@ -1,3 +1,5 @@
+import React from "react";
+
 type cardProp = {
   title: string;
   decription: string;

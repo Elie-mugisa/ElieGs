@@ -1,4 +1,5 @@
 import GalleyCard from "./gallery_card";
+import React from "react";
 
 export default function GallerySection() {
   return (
