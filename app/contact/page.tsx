@@ -61,7 +61,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-full p-4 bg-[#111111] border-t border-l-0 border-[#9d9d9d] lg:flex-[1] lg:border-l lg:border-t-0 py-10 px-6 md:h-auto lg:pl-14 ">
+        <div className="w-full p-4 bg-[#111111] border-t border-l-0 border-[#9d9d9d] lg:flex-[1] lg:border-l lg:border-t-0 py-10 px-6 md:h-auto  lg:pl-14 ">
           <h1 className="text-white font-semibold text-3xl lg:text-6xl">
             Yes, we can do it!
           </h1>
@@ -73,27 +73,35 @@ export default function Contact() {
           </p>
           <div className="w-full flex flex-col gap-4 py-10 lg:gap-6 ">
             <div className="flex gap-6 items-center">
-              <PiPhone className="text-2xl lg:text-3xl text-white" />
+              <div className="h-8 w-8 flex justify-center items-center">
+                <PiPhone className="text-2xl lg:text-3xl text-white" />
+              </div>
               <p className="text-2xl lg:text-3xl text-white">
                 +243 823 575 527
               </p>
             </div>
             <div className="flex gap-6 items-center">
-              <FaMessage className="text-2xl lg:text-3xl text-white" />
+              <div className="h-8 w-8 flex justify-center items-center">
+                <FaMessage className="text-xl lg:text-3xl text-white" />
+              </div>
               <p className="text-2xl lg:text-3xl text-white">
                 +243 823 575 527
               </p>
             </div>
             <div className="flex gap-6 items-center">
-              <MdEmail className="text-2xl lg:text-3xl text-white" />
+              <div className="h-8 w-8 flex justify-center items-center">
+                <MdEmail className="text-2xl lg:text-3xl text-white" />
+              </div>
               <p className="text-2xl lg:text-3xl text-white">
-                eliemugisa@autafrica.com
+                eliegs@autafrika.com
               </p>
             </div>
             <div className="flex gap-6 items-center">
-              <MdEmail className="text-2xl lg:text-3xl text-white" />
+              <div className="h-8 w-8 flex justify-center items-center">
+                <MdEmail className="text-2xl lg:text-3xl text-white" />
+              </div>
               <p className="text-2xl lg:text-3xl text-white">
-                eliemugisa@gmail.com
+                eliemugisa777@gmail.com
               </p>
             </div>
           </div>

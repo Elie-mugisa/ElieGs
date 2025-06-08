@@ -55,7 +55,7 @@ export default function NavContainer() {
           <FaGithubSquare className="text-[#9d9d9d] transition-all duration-300 text-xl md:text-2xl hover:text-white " />
         </Link>
         <Link
-          href={"mailto:eliemugisa777@gmail.com"}
+          href={"mailto:eliegs@autafrika.com"}
           target="_blank"
           rel="noopener noreferrer"
         >
