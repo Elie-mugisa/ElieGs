@@ -167,8 +167,8 @@ function WorksGrid() {
             Tabernacle Chretien Kalemi
           </h1>
           <p className="text-base text-[#9d9d9d] ">
-            Prototype version of the web application for "Eglise Tabernacle
-            Chretien de Kalemi"
+            Prototype version of the web application for &quot;Eglise Tabernacle
+            Chretien de Kalemi&quot;
           </p>
           <div className="pt-2 p-2 flex justify-between items-center bg-black text-[#9d9d9d] ">
             <p className="text-white text-base ">Web application</p>
@@ -268,7 +268,7 @@ function ContributionsGrid() {
           </h1>
           <p className="text-base text-[#9d9d9d] ">
             A platform serving as a demo for the mobile application, agroflex is
-            digital solution for optimizing the agriculcuture's sector.
+            digital solution for optimizing the agriculcuture&apos;s sector.
           </p>
           <p className="text-base text-[#9d9d9d] ">
             Contributed as mobile developer on the mobile app AgroFlex

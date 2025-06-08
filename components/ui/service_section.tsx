@@ -50,8 +50,8 @@ function ServiceGrid() {
           <p className="text-lg text-justify font-light text-[#9d9d9d] ">
             I specialize in designing and developing high-performance websites
             that are fast, responsive, and built with clean, scalable code.
-            Whether you're a startup, small business, or enterprise, I create
-            digital experiences that not only look great but also work
+            Whether you&apos;re a startup, small business, or enterprise, I
+            create digital experiences that not only look great but also work
             seamlessly across all devices.
           </p>
         </div>
@@ -71,9 +71,9 @@ function ServiceGrid() {
           <p className="text-lg text-justify font-light text-[#9d9d9d] ">
             I design and develop custom web applications that are fast, secure,
             and scalable — built to solve real-world problems and support your
-            business goals. Whether you're launching a new product, automating
-            internal workflows, or enhancing customer engagement, I deliver
-            solutions that are tailored to your vision.
+            business goals. Whether you&apos;re launching a new product,
+            automating internal workflows, or enhancing customer engagement, I
+            deliver solutions that are tailored to your vision.
           </p>
         </div>
       </div>

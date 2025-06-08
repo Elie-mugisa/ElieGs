@@ -5,7 +5,7 @@ import Link from "next/link";
 import Navlinks from "../navigation/nav_link";
 import { LiaLinkedin } from "react-icons/lia";
 import { BsWhatsapp } from "react-icons/bs";
-import { FaFacebook, FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Image from "next/image";
 import { useState } from "react";

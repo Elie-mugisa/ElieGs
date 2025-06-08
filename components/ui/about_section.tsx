@@ -3,7 +3,7 @@ import React from "react";
 
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
-import { FaCaretRight } from "react-icons/fa6";
+
 import { HiExternalLink } from "react-icons/hi";
 import { useState } from "react";
 import { FaLinux } from "react-icons/fa";

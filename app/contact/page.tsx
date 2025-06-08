@@ -67,10 +67,10 @@ export default function Contact() {
             Yes, we can do it!
           </h1>
           <p className="text-base mt-10 text-[#9d9d9d] ">
-            Let's turn your idea into reality
+            Let&apos;s turn your idea into reality
           </p>
           <p className="text-base mt-4 text-[#9d9d9d] ">
-            Let's bring digital solution, and make it easy to handle
+            Let&apos;s bring digital solution, and make it easy to handle
           </p>
           <div className="w-full flex flex-col gap-4 py-10 lg:gap-6 ">
             <div className="flex gap-6 items-center">
