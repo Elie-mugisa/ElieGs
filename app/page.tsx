@@ -1,3 +1,4 @@
+import React from "react";
 import NavContainer from "@/components/navigation/nav_container";
 import AboutSection from "@/components/ui/about_section";
 import Footer from "@/components/ui/footer";
@@ -5,7 +6,6 @@ import GallerySection from "@/components/ui/gallery_section";
 import Hero from "@/components/ui/hero";
 import ServiceSection from "@/components/ui/service_section";
 import WorksSection from "@/components/ui/works_section";
-import React from "react";
 
 export default function Home() {
   return (
