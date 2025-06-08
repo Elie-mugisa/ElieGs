@@ -5,6 +5,7 @@ import GallerySection from "@/components/ui/gallery_section";
 import Hero from "@/components/ui/hero";
 import ServiceSection from "@/components/ui/service_section";
 import WorksSection from "@/components/ui/works_section";
+import React from "react";
 
 export default function Home() {
   return (
