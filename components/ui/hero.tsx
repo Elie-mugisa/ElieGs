@@ -3,6 +3,7 @@ import { IoGitBranch } from "react-icons/io5";
 import { VscVscodeInsiders, VscJson } from "react-icons/vsc";
 
 import { IoCodeSlashOutline } from "react-icons/io5";
+import { Fade } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
@@ -29,19 +30,25 @@ export default function Hero() {
 function HeroText() {
   return (
     <div className=" pt-[14vh] w-full  px-6 flex flex-col gap-6 items-center md:pt-0 md:pl-24 md:gap-8 md:flex-[1] ">
-      <p className="text-[#9d9d9d] text-center font-extralight text-base md:text-2xl lg:text-start ">
-        Passionate about transforming ideas into scalable, efficient, and
-        elegant software solutions.
-      </p>
-      <h1 className="font-bold text-center text-white text-4xl md:text-6xl lg:text-start ">
-        Bringing ideas to life with the power of algorithms, design patterns,
-        and best practices.
-      </h1>
-      <h2 className="font-light  mt-6 text-center text-white/70 text-xl md:pt-10 md:text-4xl lg:text-start">
-        {
-          "{   I don’t just write code I create solutions that make a difference   }"
-        }
-      </h2>
+      <Fade duration={600} direction="up">
+        <p className="text-[#9d9d9d] text-center font-extralight text-base md:text-2xl lg:text-start ">
+          Passionate about transforming ideas into scalable, efficient, and
+          elegant software solutions.
+        </p>
+      </Fade>
+      <Fade duration={800} direction="up">
+        <h1 className="font-bold text-center text-white text-4xl md:text-6xl lg:text-start ">
+          Bringing ideas to life with the power of algorithms, design patterns,
+          and best practices.
+        </h1>
+      </Fade>
+      <Fade duration={900} direction="up">
+        <h2 className="font-light  mt-6 text-center text-white/70 text-xl md:pt-10 md:text-4xl lg:text-start">
+          {
+            "{   I don’t just write code I create solutions that make a difference   }"
+          }
+        </h2>
+      </Fade>
     </div>
   );
 }
