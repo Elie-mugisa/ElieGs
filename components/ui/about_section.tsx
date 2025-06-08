@@ -15,8 +15,8 @@ export default function AboutSection() {
       <FaLinux className="text-9xl text-[#9d9d9d]/30 absolute bottom-20 right-20 z-20 " />
       <div className="flex bg-[#111111] flex-col-reverse gap-x-14 gap-y-10 items-center  md:py-14 lg:flex-row lg:items-start ">
         {/* picture */}
-        <div className="  pt-4 md:pt-10 md:pl-24 ">
-          <div className="h-[60vh] w-[95vw] flex flex-col rounded-md  md:w-[55vw] lg:w-[25vw]">
+        <div className="w-full flex justify-center items-center pt-4 md:pt-10 lg:pl-24 lg:w-auto ">
+          <div className="h-[60vh] w-[95vw] flex flex-col rounded-md  md:w-[85vw] lg:w-[25vw]">
             <div className="h-[90%]  relative flex justify-center items-center">
               {/* Spinner */}
               {isLoading && (

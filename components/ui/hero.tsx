@@ -16,7 +16,7 @@ export default function Hero() {
       <IoCodeSlashOutline className="absolute left-[5vw] bottom-[25vh] text-8xl font-black text-[#9d9d9d]/15 md:text-9xl " />
 
       {/* content */}
-      <div className=" w-full flex flex-col items-center gap-y-8 z-20 md:flex-row ">
+      <div className=" w-full flex flex-col items-center gap-y-8 z-20 md:pt-[14vh] lg:flex-row lg:pt-0 ">
         {/* text */}
         <HeroText />
         {/* pic */}
@@ -50,10 +50,10 @@ function HeroPic() {
   return (
     <div className="w-full overflow-hidden flex items-center justify-center relative  min-h-[50vh] md:flex-[1] lg:min-h-screen lg:justify-start ">
       <div className="h-[50vh] w-[50vh] rounded-full absolute  bg-[#161616] lg:h-[150vh] lg:w-[150vh]" />
-      <div className="h-[40vh] w-[40vh] rounded-full absolute bg_for_img lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
-      <div className="h-[40vh] w-[40vh] rounded-full absolute bg-[#111111]/50  lg:h-[110vh] lg:w-[110vh] md:left-[10vw]" />
-      <div className="h-[20vh] w-[20vh] rounded-full absolute bg-[#1E1E1E] lg:h-[90vh] lg:w-[90vh] md:left-[22vw]" />
-      <div className="h-[10vh] w-[10vh] rounded-full absolute bg-[#111111] lg:h-[50vh] lg:w-[50vh] md:left-[34vw]" />
+      <div className="h-[40vh] w-[40vh] rounded-full absolute bg_for_img lg:h-[110vh] lg:w-[110vh] lg:left-[10vw]" />
+      <div className="h-[40vh] w-[40vh] rounded-full absolute bg-[#111111]/50  lg:h-[110vh] lg:w-[110vh] lg:left-[10vw]" />
+      <div className="h-[20vh] w-[20vh] rounded-full absolute bg-[#1E1E1E] lg:h-[90vh] lg:w-[90vh] lg:left-[22vw]" />
+      <div className="h-[10vh] w-[10vh] rounded-full absolute bg-[#111111] lg:h-[50vh] lg:w-[50vh] lg:left-[34vw]" />
     </div>
   );
 }

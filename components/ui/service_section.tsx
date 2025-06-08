@@ -7,7 +7,7 @@ export default function ServiceSection() {
   return (
     <div
       id="services"
-      className="service py-6 px-2 w-full flex flex-col justify-center items-center gap-6 md:gap-8 md:py-10 md:px-24 "
+      className="service py-6 px-2 w-full flex flex-col justify-center items-center gap-6 md:gap-8 md:py-10 md:px-8 lg:px-24 "
     >
       <HeaderSection />
       <ServiceGrid />

@@ -10,7 +10,7 @@ export default function WorksSection() {
   return (
     <div
       id="realisation"
-      className="py-6 px-6 w-full flex flex-col gap-8 bg-[#111111] md:gap-10 md:px-24 md:py-10"
+      className="py-6 px-6 w-full flex flex-col gap-8 bg-[#111111] md:gap-10 md:px-8 lg:px-24  md:py-10"
     >
       <HeaderWorksSection />
       <WorksGrid />
@@ -232,7 +232,7 @@ function ContributionsGrid() {
       </Link>
 
       <Link
-        href={"https://fongolab.com/"}
+        href={"https://agroflex.vercel.app/"}
         className="p-2 rounded-md bg-[#161616] flex flex-col md:p-4"
       >
         <div className="w-full h-[20vh] relative ">

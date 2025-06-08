@@ -8,14 +8,14 @@ import { PiPhone } from "react-icons/pi";
 
 export default function Contact() {
   return (
-    <div className="service min-h-screen w-full flex justify-center items-end   ">
-      <div className="min-h-screen w-full bg-[#111111]/95 absolute " />
+    <div className=" min-h-screen w-full flex justify-center items-end  service  ">
+      <div className="min-h-screen w-full bg-[#111111]/98 absolute " />
       <NavContainer />
 
-      <div className="absolute min-h-[80vh] p-6 w-[97vw] rounded-md bg-black mb-[5vh] flex gap-8 flex-col  lg:p-10 lg:flex-row ">
-        <div className="w-full  flex flex-col gap-8  lg:flex-[1]  ">
-          <div className=" h-full justify-center flex gap-8 flex-[1] ">
-            <div className="bg-[#1b1b1b]/70 py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8">
+      <div className="absolute top-[16vh] min-h-[75vh] gap-y-2  w-full rounded-md  mb-[5vh] flex gap-x-8 flex-col justify-center md:top-[16vh] md:p-6 lg:p-10 lg:flex-row ">
+        <div className="w-full h-[60vh] p-6 flex flex-col gap-2 md:h-auto md:p-0 md:gap-8 lg:flex-[1]  ">
+          <div className="  h-full justify-center flex gap-2 flex-[1] md:gap-8 ">
+            <div className="bg-[#1b1b1b] py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8">
               <LiaLinkedin className="text-[#9d9d9d] text-3xl lg:text-9xl " />
               <p className="text-xl lg:text-4xl text-[#9d9d9d] ">Mugisa Elie</p>
               <Link
@@ -25,7 +25,7 @@ export default function Contact() {
                 text me
               </Link>
             </div>
-            <div className="bg-[#1b1b1b]/70 py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
+            <div className="bg-[#1b1b1b] py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
               <BsWhatsapp className="text-[#9d9d9d] text-3xl lg:text-9xl " />
               <p className="text-xl lg:text-4xl text-[#9d9d9d] ">
                 +257 79 882 175
@@ -38,8 +38,8 @@ export default function Contact() {
               </Link>
             </div>
           </div>
-          <div className=" h-full justify-center flex gap-8 flex-[1] ">
-            <div className="bg-[#1b1b1b]/70 py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
+          <div className="h-full justify-center flex gap-2 flex-[1] md:gap-8 ">
+            <div className="bg-[#1b1b1b] py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
               <BsGithub className="text-[#9d9d9d] text-3xl lg:text-9xl " />
               <p className="text-xl lg:text-4xl text-[#9d9d9d] ">Mugisa Elie</p>
               <Link
@@ -49,7 +49,7 @@ export default function Contact() {
                 Check
               </Link>
             </div>
-            <div className="bg-[#1b1b1b]/70 py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
+            <div className="bg-[#1b1b1b] py-4 flex flex-col gap-4 justify-center items-center rounded-md w-full lg:gap-8 ">
               <LiaLinkedin className="text-[#9d9d9d] text-3xl lg:text-9xl " />
               <p className="text-xl lg:text-4xl text-[#9d9d9d] ">Mugisa Elie</p>
               <Link
@@ -61,7 +61,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-full border-t border-l-0 border-[#9d9d9d] lg:flex-[1] lg:border-l lg:border-t-0 py-10 px-6 lg:pl-14 ">
+        <div className="w-full p-4 bg-[#111111] border-t border-l-0 border-[#9d9d9d] lg:flex-[1] lg:border-l lg:border-t-0 py-10 px-6 md:h-auto lg:pl-14 ">
           <h1 className="text-white font-semibold text-3xl lg:text-6xl">
             Yes, we can do it!
           </h1>

@@ -19,7 +19,7 @@ export default function NavContainer() {
         <FaLaptopCode className="inline font-black text-4xl text-[#9d9d9d] md:text-6xl" />
       </Link>
       {/* menu */}
-      <div className="hidden items-center gap-12 md:flex">
+      <div className="hidden items-center gap-12 lg:flex">
         <Navlinks label="Home" url="/" />
         <Navlinks label="About me" url="/#about" />
         <Navlinks label="Services" url="/#services" />
@@ -34,14 +34,14 @@ export default function NavContainer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LiaLinkedin className="text-blue-600 text-xl md:text-3xl " />
+          <LiaLinkedin className="text-[#9d9d9d] transition-all duration-300 text-xl md:text-3xl hover:text-white " />
         </Link>
         <Link
           href={"https://wa.me/+25779882175"}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsWhatsapp className="text-green-600 text-xl md:text-2xl " />
+          <BsWhatsapp className="text-[#9d9d9d] transition-all duration-300 text-xl md:text-2xl hover:text-white " />
         </Link>
         {/* <Link href={"/"}   target="_blank"
       rel="noopener noreferrer">
@@ -52,16 +52,16 @@ export default function NavContainer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithubSquare className="text-white text-xl md:text-2xl " />
+          <FaGithubSquare className="text-[#9d9d9d] transition-all duration-300 text-xl md:text-2xl hover:text-white " />
         </Link>
         <Link
           href={"mailto:eliemugisa777@gmail.com"}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <MdEmail className="text-white text-xl md:text-2xl " />
+          <MdEmail className="text-[#9d9d9d] transition-all duration-300 text-xl md:text-2xl hover:text-white" />
         </Link>
-        <div className="flex items-center gap-4 md:hidden">
+        <div className="flex items-center gap-4 lg:hidden">
           <div className="h-6 w-0.5 bg-white/30 " />
           <MenuIcon
             onClick={() => setOpenModal(!openModal)}
