@@ -5,6 +5,7 @@ import { FaMessage } from "react-icons/fa6";
 import { LiaLinkedin } from "react-icons/lia";
 import { MdEmail } from "react-icons/md";
 import { PiPhone } from "react-icons/pi";
+import React from "react";
 
 export default function Contact() {
   return (
